@@ -69,7 +69,7 @@ def printRooms():
                 print(" Room"+repr(key)+"\nItems : values($)")
                 for item, value in room.items.items():
                     print(item, " : ", value)
-                print("\nPrice: ", room.price)
+                print("\nPrice: $", room.price)
                 print("-"*25)
     if flag == 0:
         print("---No rooms available---")
